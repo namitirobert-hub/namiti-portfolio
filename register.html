@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="event header">
+        <img src="" alt="">
+        <h1>chilling with chef namiti</h1>
+        <p>An exclusive culinary & chill experience.</p>
+    </header>
+    <section id="registration">
+        <h2>register for chilling with chef namiti</h2>
+        <p>fill out the form below to reserve your spot for the event.</p>
+        <form action="/action_page.php">
+            <div>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="enter your full name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="e.g. name@example.com" required> 
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="e.g. +256700000000" required>
+            </div> 
+            <br>
+            <strong>gender</strong>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <strong>age group</strong>
+            <div>
+                <label for="age-group">Age-group:</label><br>
+                <select name="age-group" id="age-group">
+                <option value="" disabled>select your age group</option>
+                <option value="under 18">Under 18</option>
+                <option value="18-24">18-24</option>
+                <option value="24-34">24-34</option>
+                <option value="34-44">34-44</option>
+                <option value="45+">45 and above</option>
+                </select>
+            </div>
+            <br>
+            <strong>area of interest</strong>
+            <div>
+                <label for="area of interest">Area of interest:</label>
+                <input type="checkbox" id="live cooking" name="interest" value="live cooking">
+                <label for="live cooking">Live cooking demostration</label><br>
+                <input type="checkbox" id="food tasting" name="interest" value="food tasing">
+                <label for="food tasting">Food tasting & Pairing</label><br>
+                <input type="checkbox" id="networking" name="interest" value="networking">
+                <label for="networking">Networking & Chill session</label>
+            </div>
+            <br>
+            <strong>attendence</strong>
+            <div>
+                <label for="attendence type">Attendence type:</label><br>
+                <select name="" id="attendence type" name="attendence type" required>
+                    <option value=""disabled>select attendence type</option>
+                    <option value="in person">In person</option>
+                    <option value="online">Online</option>
+                    <option value="special guest">Special guest</option>
+                </select>
+                </div>
+                <br>
+                <strong>questions/comments</strong>
+                <div>
+                    <label for="questions">Questions/Comments</label><br>
+                    <textarea id="questions" name="questions" placeholder="ask chef namiti a question or share your dietary preferences."></textarea>
+                </div>
+                <br>
+                <strong>terms agreement</strong>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">i agree to the event's terms and conditions</label>
+                </div>
+                <br>
+            <div>
+                <button type="submit">Register for event</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+
+    </footer> 
+</body>
